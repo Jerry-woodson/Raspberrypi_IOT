@@ -1,2 +1,2 @@
 # Raspberrypi_IOT
-This repository is for Innovation and entrepreneurship training program for college students. We need to develop a system for Smart home based on IOT. We use the raspberrypi as our develop board.
+这个仓库用作存储大学生创新创业训练项目的代码。 我们希望开发一个系统来模拟智能家居的功能。 我们使用了树莓派作为我们的开发板。 现在我们正在进行项目的需求分析以及技术栈的设计。
