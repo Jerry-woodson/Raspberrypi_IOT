@@ -6,4 +6,5 @@
 <br>具备扫码计时的功能，用户扫码以后即可开始计时，用户再次扫码，表示已经离开，即停止计时，同时需要上锁
 <br>模拟用户可以通过终端实现控制空调、控制灯光强度以及开启关闭监控的功能。控制空调的功能使用温湿度传感器进行模拟，控制灯光强度使用光照传感器进行模拟，同时使用树莓派套件的摄像头模拟监控的功能
 <h2>项目的基本逻辑架构</h2>
-![image](https://github.com/Raspberrypi_IOT/img-folder/processing.jpg)
+![image](https://github.com/Jerry-woodson/Raspberrypi_IOT/blob/main/processing.jpg)
+
