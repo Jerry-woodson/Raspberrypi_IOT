@@ -14,7 +14,7 @@
 <br>其中功能模块分为温度模块、湿度模块、光照模块和摄像头模块。这些模块又细分成温度显示模块、温度调节模块；湿度显示模块、湿度调节模块；光照显示模块、光照调节模块；打开摄像头模块和关闭摄像头模块。
 <br>登录模块可以分为密码登录模块、验证码登录模块以及微信登录模块。
 <br>具体的逻辑关系可以参见下图：
-
+<br>![image](https://github.com/Jerry-woodson/Raspberrypi_IOT/blob/main/img-folder/Architecture.jpg)
 
 
 <h2>通信技术实现</h2>
