@@ -15,7 +15,7 @@
 <br>登录模块可以分为密码登录模块、验证码登录模块以及微信登录模块。
 <br>具体的逻辑关系可以参见下图：
 <br>![image](https://github.com/Jerry-woodson/Raspberrypi_IOT/blob/main/img-folder/Architecture.jpg)
-
+https://github.com/Jerry-woodson/Raspberrypi_IOT/assets/92074601/fa3f18e2-8f9d-4f19-8537-4da890c698ac
 
 <h2>通信技术实现</h2>
 
