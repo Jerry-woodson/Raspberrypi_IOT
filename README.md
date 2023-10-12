@@ -18,6 +18,7 @@
 <h3>V1.0展示Demo</h3>
 https://github.com/Jerry-woodson/Raspberrypi_IOT/assets/92074601/fa3f18e2-8f9d-4f19-8537-4da890c698ac
 <br>具体代码请参见v1.0的压缩包
+<br>v1.0版本存在的问题：打开摄像头、关闭摄像头存在问题；微信登录功能尚未实现；部分功能的渲染存在问题；扫码计时和微信支付功能尚未实现
 <h2>通信技术实现</h2>
 
 
