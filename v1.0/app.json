@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/newPage/newPage",
+    "pages/login/login",
+    "pages/function1/function1",
+    "pages/function2/function2",
+    "pages/function3/function3",
+    "pages/function4/function4",
+    "pages/adHumidity/adHumidity",
+    "pages/adLight/adLight",
+    "pages/cameraView/camearaView",
+    "pages/password-login/password-login",
+    "pages/code-login/code-login"
+  ],
+
+  "permission": {
+    "scope.userCamera": {
+      "desc": "需要使用摄像头"
+    }
+  },
+
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

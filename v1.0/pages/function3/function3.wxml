@@ -1,0 +1,14 @@
+<!--pages/function3/function3.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到光照控制界面！
+  </view>
+  
+  <view class="button-container">
+    <button class="button" bindtap="showLight">显示光强</button>
+    <button class="button" bindtap="adjustLight">调节光强</button>
+  </view>
+
+  <view class="back-button" bindtap="navigateBack">返回</view>
+</scroll-view>

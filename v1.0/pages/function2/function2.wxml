@@ -1,0 +1,14 @@
+<!--pages/function2/function2.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到湿度控制界面！
+  </view>
+
+  <view class="button-container">
+    <button class="button" bindtap="showHumidity">显示湿度</button>
+    <button class="button" bindtap="adjustHumidity">调节湿度</button>
+  </view>
+
+  <view class="back-button" bindtap="navigateBack">返回</view>
+</scroll-view>

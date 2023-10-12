@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到登录界面！
+  </view>
+
+  <view class="login-buttons">
+    <button bindtap="passwordLogin">密码登录</button>
+    <button bindtap="codeLogin">验证码登录</button>
+    <button bindtap="wechatLogin">微信登录</button>
+  </view>
+
+  <view class="back-button" bindtap="navigateBack">返回</view>
+  
+</scroll-view>

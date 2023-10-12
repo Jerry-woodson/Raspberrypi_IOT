@@ -1,0 +1,13 @@
+/* pages/newPage/newPage.wxss */
+.function-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.back-button {
+  margin: 20px; /* 设置按钮距离页面内容的边距 */
+  background-color: #008CBA; /* 按钮背景颜色 */
+  color: #FFF; /* 按钮文字颜色 */
+  padding: 10px 20px; /* 按钮内边距 */
+}

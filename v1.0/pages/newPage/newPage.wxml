@@ -1,0 +1,20 @@
+<!--支持UTF-8-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到功能(Function)页面！
+  </view>
+
+  <view class="function-page">
+    <button class="function-button" bindtap="button1">温度</button>
+    <button class="function-button" bindtap="button2">湿度</button>
+    <button class="function-button" bindtap="button3">光照</button>
+    <button class="function-button" bindtap="button4">摄像头</button>
+  </view>
+
+  <button class="back-button" bindtap="goBack">返回</button>
+</scroll-view>
+
+
+
+

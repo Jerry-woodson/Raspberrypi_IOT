@@ -1,0 +1,16 @@
+<!--pages/function4/function4.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到摄像头控制界面！
+  </view>
+
+  <view class="page">
+    <camera id="camera" device-position="{{cameraPosition}}" flash="{{flash}}" binderror="cameraError" />
+    <button bindtap="openCamera">打开摄像头</button>
+    <button bindtap="closeCamera">关闭摄像头</button>
+  </view>
+
+
+  <view class="back-button" bindtap="navigateBack">返回</view>
+</scroll-view>

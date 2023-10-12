@@ -1,0 +1,64 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.navbar {
+  background-color: #007AFF;
+  color: #FFFFFF;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 18px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* 让两个子元素在父容器中左右对齐 */
+  align-items: center; /* 垂直居中对齐 */
+  padding: 10px; /* 可选，增加一些内边距 */
+}
+
+.navbar {
+  background-color: #007AFF;
+  color: #FFFFFF;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px; /* 可选，增加一些内边距 */
+}
+
+.navbar-title {
+  font-size: 18px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  flex: 1; /* 平分宽度，占满一行 */
+  background-color: #007AFF;
+  color: #FFFFFF;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 文字水平居中 */
+}
+
+.separator {
+  width: 1px; /* 分隔线宽度 */
+  background-color: #000000; /* 黑线颜色 */
+}

@@ -1,0 +1,16 @@
+<!--pages/code-login/code-login.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到验证码登录界面！
+  </view>
+
+  <view class="verification-login">
+    <input type="tel" placeholder="请输入手机号" bindinput="inputPhoneNumber" />
+    <input type="number" placeholder="请输入验证码" bindinput="inputVerificationCode" />
+    <button bindtap="getVerificationCode">获取验证码</button>
+    <button bindtap="login">登录</button>
+  </view>
+
+  <view class="back-button" bindtap="navigateBack">返回</view>
+</scroll-view>

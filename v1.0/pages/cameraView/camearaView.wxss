@@ -1,0 +1,16 @@
+/* pages/cameraView/camearaView.wxss */
+.button-container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 50vh; /* 设置高度占满屏幕 */
+}
+
+.back-button {
+  background-color: #007ACC; /* 设置背景颜色 */
+  color: white; /* 设置文字颜色 */
+  font-size: 20px; /* 设置文字大小 */
+  padding: 10px 20px; /* 设置内边距 */
+  border-radius: 20px; /* 设置圆角 */
+  cursor: pointer; /* 鼠标悬停时显示手型光标 */
+}

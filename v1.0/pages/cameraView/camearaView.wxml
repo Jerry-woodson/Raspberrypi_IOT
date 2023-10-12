@@ -1,0 +1,15 @@
+<!--pages/cameraView/camearaView.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到摄像头界面！
+  </view>
+
+  <view class="page">
+    <camera id="camera" device-position="back" bindframe="onCameraFrame" />
+    <canvas canvas-id="cameraCanvas" style="width: 100%; height: 100%;"></canvas>
+  </view>
+
+
+  <view class="back-button" bindtap="navigateBack">返回</view>
+</scroll-view>

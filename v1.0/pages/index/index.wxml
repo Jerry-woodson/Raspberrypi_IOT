@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<!--支持UTF-8-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到Smart home微信小程序!
+  </view>
+</scroll-view>
+<view class="button-container">
+  <view class="button">
+    <text class="button-text" bindtap="goToFunctionPage">功能(Function)</text>
+  </view>
+  <view class="separator"></view>
+  <view class="button">
+    <text class="button-text" bindtap="goToLoginPage">登录(Login)</text>
+  </view>
+</view>
+

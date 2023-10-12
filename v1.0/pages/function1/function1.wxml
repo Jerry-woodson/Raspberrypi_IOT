@@ -1,0 +1,17 @@
+<!--pages/function1/function1.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到温度控制界面！
+  </view>
+
+  <view class="temperature-page">
+    <text class="temperature-text">{{temperature}}°C</text>
+    <button class="adjust-button" bindtap="increaseTemperature">+</button>
+    <button class="adjust-button" bindtap="decreaseTemperature">-</button>
+  </view>
+  
+  <view class="back-button" bindtap="navigateBack">返回</view>
+</scroll-view>
+
+

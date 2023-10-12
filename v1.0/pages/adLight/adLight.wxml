@@ -1,0 +1,22 @@
+<!--pages/adLight/adLight.wxml-->
+<navigation-bar title="微信" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    欢迎来到光强控制界面！
+  </view>
+
+  <!-- adjustHumidity.wxml -->
+  <view class="container">
+    <text class="title">调节光强</text>
+
+    <view class="light-control">
+      <text class="label">目标光强：</text>
+      <input class="input" placeholder="输入目标光强" bindinput="inputLight" />
+      <text class="unit">%</text>
+    </view>
+
+    <button class="adjust-button" bindtap="adjust">开始调节</button>
+  </view>
+
+  <view class="back-button" bindtap="navigateBack">返回</view>
+</scroll-view>
